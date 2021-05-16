@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: cornsilk;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 20vh;
+}
+
+.container {
+    position: relative;
+    height: 500px;
+    padding: 15px;
+}
+
+#title {
+    background-color: rgb(141, 247, 147);
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+input {
+    background-color: rgb(141, 247, 147);
+    border-radius: 5px;
+    border: 2px solid rgb(91, 250, 131);
+    color: rgb(16, 119, 21);
+    outline: none;
+    font-size: 18px;
+    width: 200px;
+    height: 35px;
+    padding: 5px;
+}
+
+input:first-child {
+    margin-right: 20px
+}
+
+input:nth-child(n) {
+    margin-left: 20px;
+}
+
+.units {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
